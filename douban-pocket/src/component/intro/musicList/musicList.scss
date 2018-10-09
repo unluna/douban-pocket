@@ -1,0 +1,10 @@
+.musicList {
+  width: 100%;
+  margin-top: 70px;
+  @include center;
+
+  .musicList-content {
+    width: 90%;
+    margin-bottom: 80px;
+  }
+}
