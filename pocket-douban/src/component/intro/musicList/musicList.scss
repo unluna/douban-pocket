@@ -1,0 +1,19 @@
+.musicList {
+  width: 100%;
+  margin-top: 70px;
+  @include center;
+
+  .musicList-content {
+    width: 90%;
+    margin-bottom: 80px;
+    .musicList-more{
+      width: 100%;
+      background: $border;
+      text-align: center;
+      color: white;
+      padding: 3px;
+      border-radius: 10px;
+      letter-spacing: 5px;
+    }
+  }
+}

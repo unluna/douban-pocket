@@ -1,0 +1,56 @@
+.bookList-item {
+  margin-bottom: 10px;
+  list-style: none;
+  width: 100%;
+  height: 140px;
+  @include center;
+  border: 1px solid $border;
+  border-radius: 3px;
+
+  .img {
+    flex-shrink: 0;
+    margin: 5px 25px 5px 10px;
+    height: 130px;
+    width: 100px;
+    background: no-repeat center center;
+    background-size: contain;
+  }
+
+  .list {
+    flex-grow: 1;
+    margin: 5px 5px 5px 0;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    div{
+      height: 20px;
+      width: 190px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      @include hideLetters;
+    }
+
+    .laber{
+      width: 190px;
+      height: 25px;
+      overflow: hidden;
+      @include hideLetters;
+
+      li{
+        display: inline-block;
+        height: 20px;
+        border: 1px solid red;
+        border-radius: 2px;
+        background-color: orange;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        padding:1px 3px;
+        margin-right: 3px;
+      }
+    }
+  }
+}
